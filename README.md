@@ -1,1 +1,1 @@
-# pricing-page-html-css
+# Pricing Page Template
