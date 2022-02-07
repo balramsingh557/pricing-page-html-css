@@ -1,2 +1,2 @@
 # Pricing Page Template
-## using html css
+## Only HTML & CSS
