@@ -1,0 +1,136 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:800);
+.plan-container {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+.plan-container .plan {
+  margin: 0;
+  width: 25%;
+  position: relative;
+  float: left;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.plan-container * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.plan-container header {
+  position: relative;
+}
+.plan-container .plan-title {
+  position: relative;
+  top: 0;
+  font-weight: 800;
+  padding: 5px 15px;
+  margin: 0 auto;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
+  display: inline-block;
+  background-color: #222f3d;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.plan-container .plan-cost {
+  padding: 0px 10px 20px;
+}
+.plan-container .plan-price {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 800;
+  font-size: 2.4em;
+  color: #34495e;
+}
+.plan-container .plan-type {
+  opacity: 0.6;
+}
+.plan-container .plan-features {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style: outside none none;
+  font-size: 0.8em;
+}
+.plan-container .plan-features li {
+  border-top: 1px solid #d2d7e2;
+  padding: 10px 5%;
+}
+.plan-container .plan-features li:nth-child(even) {
+  background: rgba(0, 0, 0, 0.08);
+}
+.plan-container .plan-features i {
+  margin-right: 8px;
+  opacity: 0.4;
+}
+.plan-container .plan-select {
+  border-top: 1px solid #d2d7e2;
+  padding: 10px 10px 0;
+}
+.plan-container .plan-select a {
+  background-color: #222f3d;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.plan-container .plan-select a:hover {
+  background-color: #46627f;
+}
+.plan-container .featured {
+  margin-top: -10px;
+  background-color: #34495e;
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.plan-container .featured .plan-title,
+.plan-container .featured .plan-price {
+  color: #ffffff;
+}
+.plan-container .featured .plan-cost {
+  padding: 10px 10px 20px;
+}
+.plan-container .featured .plan-features li {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+.plan-container .featured .plan-select {
+  padding: 20px 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+@media only screen and (max-width: 767px) {
+  .plan-container .plan {
+    width: 50%;
+  }
+  .plan-container .plan-title,
+  .plan-container .plan-select a {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .plan-container .plan-cost,
+  .plan-container .featured .plan-cost {
+    padding: 20px 10px 20px;
+  }
+  .plan-container .plan-select,
+  .plan-container .featured .plan-select {
+    padding: 10px 10px 10px;
+  }
+  .plan-container .featured {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .plan-container .plan {
+    width: 100%;
+  }
+}
